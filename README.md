@@ -4,9 +4,9 @@ Desktop electron app generated using Nativefier.
 
 <div align="center">
 
-[](./screenshots/light.png)
+<img src="./screenshots/light.png" width="500px" />
 
-[](./screenshots/dark.png)
+<img src="./screenshots/dark.png" width="500px" />
 
 </div>
 
