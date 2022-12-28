@@ -1,0 +1,17 @@
+/* Make the drawer/header window drag area */
+#__next > div > div > div:nth-of-type(1) {
+  -webkit-app-region: drag;
+}
+
+/* Add space for trafic lights on mobile */
+nav > a:first-child {
+  margin-left: 80px;
+}
+
+/* Add space for trafic lights on desktop */
+button:first-child {
+  margin-left: 80px;
+}
+main button:first-child {
+  margin-left: 0;
+}
