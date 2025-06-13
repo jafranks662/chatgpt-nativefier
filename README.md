@@ -42,3 +42,15 @@ nativefier \
   --browserwindow-options '{ "trafficLightPosition": { "x": 16, "y": 16 } }' \
   --disable-old-build-warning-yesiknowitisinsecure
 ```
+
+Alternatively, you can create the application with a simplified command:
+
+```sh
+nativefier \
+  --name "ChatGPT" \
+  --tray \
+  --tray-icon /path/to/chatgpt-icon.png \
+  --single-instance \
+  https://chat.openai.com \
+  ~/Applications
+```
