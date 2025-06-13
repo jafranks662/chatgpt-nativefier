@@ -24,14 +24,21 @@ Clone the repository:
 git clone https://github.com/nezort11/nativefier.git
 ```
 
-Run the command to create a macos app:
+Run the command to create a macOS app:
+
+```
+./build.sh
+```
+
+The script contains the following invocation of `nativefier`:
 
 ```
 nativefier \
   https://chat.openai.com/chat \
-  --icon ./chatgpt.icns \
   --name 'ChatGPT' \
+  --icon ./chatgpt.icns \
   --tray \
+  --tray-icon ./chatgpt.icns \
   --background-color '#ffffff' \
   --darwin-dark-mode-support true \
   --title-bar-style hiddenInset \
