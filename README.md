@@ -31,6 +31,7 @@ nativefier \
   https://chat.openai.com/chat \
   --icon ./chatgpt.icns \
   --name 'ChatGPT' \
+  --tray \
   --background-color '#ffffff' \
   --darwin-dark-mode-support true \
   --title-bar-style hiddenInset \
