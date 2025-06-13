@@ -61,3 +61,28 @@ nativefier \
   https://chat.openai.com \
   ~/Applications
 ```
+
+## Install from a build
+
+Running `./build.sh` will generate a folder such as `ChatGPT-darwin-x64` (or
+the equivalent for your platform). Move the generated app from this folder to
+your `Applications` directory to install it:
+
+```sh
+mv ChatGPT-darwin-x64/ChatGPT.app /Applications
+```
+
+## Custom icons
+
+You can provide your own icon by passing the `--icon` and `--tray-icon` options
+to the build script or by replacing the included `chatgpt.icns` file with your
+own. Icons should be in `.icns` format on macOS or `.png` on other platforms.
+
+## Running the app
+
+After installing or building, start the application from your Applications
+folder, or run it directly from the build output:
+
+```sh
+open /Applications/ChatGPT.app
+```
