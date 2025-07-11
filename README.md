@@ -1,7 +1,7 @@
 # ChatGPT Nativefier
 
 Desktop electron app generated using Nativefier.
-
+Fixed Google Login
 <div align="center">
 
 <img src="./screenshots/light.png" width="500px" />
