@@ -1,7 +1,6 @@
 # ChatGPT Nativefier
 
-Desktop electron app generated using Nativefier.
-Fixed Google Login
+Desktop electron app generated using Nativefier - for Intel Macs. Fixed Google Login.
 <div align="center">
 
 <img src="./screenshots/light.png" width="500px" />
